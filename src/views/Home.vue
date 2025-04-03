@@ -18,6 +18,7 @@
   import BaseMap from '@/components/BaseMap.vue'
   
   export default {
+    name: 'OilHome', 
     components: { BaseMap }
   }
   </script>

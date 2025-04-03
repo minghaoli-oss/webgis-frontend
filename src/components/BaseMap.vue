@@ -20,6 +20,7 @@
         }).addTo(mapInstance.value)
   
         // 添加示例标记
+        // eslint-disable-next-line no-unused-vars 
         const marker1 = L.marker([46.5, 125.0])
           .bindPopup('大庆油田<br>储量：50亿吨')
           .addTo(mapInstance.value)
